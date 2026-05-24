@@ -1,13 +1,13 @@
 # YouTube Account Migration
 
-A Python tool to transfer ubscriptions, playlists, and the
+A Python tool to transfer subscriptions, playlists, and the
 Watch Later list from one YouTube account to another.
 
 ## Features
 
-- Migrates all subscriptions (full list via pagination).
+- Migrates all subscriptions.
 - Recreates playlists along with their videos.
-- Resumable / idempotent import: stops when the API quota
+- Resumable import: stops when the API quota
   runs out and continues from where it left off on the next run, without
   creating duplicates.
 
