@@ -1,0 +1,14 @@
+# Sırlar — ASLA yüklenmemeli
+client_secret.json
+token_*.json
+cookies.txt
+
+# Kişisel veri
+export.json
+progress.json
+watchlater_ids.txt
+
+# Python
+venv/
+__pycache__/
+*.pyc
